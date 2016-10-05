@@ -91,7 +91,7 @@ STANDARD
   9
 $CLAYER
   8
-screws-holes
+back-elec
   9
 $CELTYPE
   6
@@ -1115,9 +1115,9 @@ AcDbViewportTableRecord
  21
 1
  12
-12.28634112002637
+40.11900000008627
  22
-4.604989440009883
+6.568320000014124
  13
 0
  23
@@ -1143,9 +1143,9 @@ AcDbViewportTableRecord
  37
 0
  40
-30.45789696006536
+57.39816000012342
  41
-1.606022584692597
+1.664499349804941
  42
 50
  43
@@ -2277,7 +2277,7 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
   2
-2 axis
+2-axis
  70
     0
  62
@@ -2299,9 +2299,31 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
   2
-screws-holes
+back-elec
  70
     0
+ 62
+    7
+  6
+CONTINUOUS
+370
+    0
+390
+F
+  0
+LAYER
+  5
+4D
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+screws-holes
+ 70
+    1
  62
     7
   6
@@ -2327,7 +2349,7 @@ AcDbSymbolTable
   0
 STYLE
   5
-4D
+4E
 330
 2
 100
@@ -2411,7 +2433,7 @@ ACAD
   0
 APPID
   5
-4E
+4F
 330
 9
 100
@@ -2443,7 +2465,7 @@ AcDbDimStyleTable
   0
 DIMSTYLE
 105
-4F
+50
 330
 A
 100
@@ -2717,7 +2739,7 @@ ENTITIES
   0
 ARC
   5
-50
+51
 100
 AcDbEntity
   8
@@ -2745,7 +2767,7 @@ AcDbArc
   0
 LINE
   5
-51
+52
 100
 AcDbEntity
   8
@@ -2769,7 +2791,7 @@ AcDbLine
   0
 LINE
   5
-52
+53
 100
 AcDbEntity
   8
@@ -2793,7 +2815,7 @@ AcDbLine
   0
 ARC
   5
-53
+54
 100
 AcDbEntity
   8
@@ -2821,7 +2843,7 @@ AcDbArc
   0
 CIRCLE
   5
-54
+55
 100
 AcDbEntity
   8
@@ -2843,11 +2865,11 @@ AcDbCircle
   0
 CIRCLE
   5
-55
+56
 100
 AcDbEntity
   8
-2 axis
+2-axis
   6
 ByLayer
  62
@@ -2865,51 +2887,7 @@ AcDbCircle
   0
 CIRCLE
   5
-56
-100
-AcDbEntity
-  8
-screws-holes
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
--4.330127018912735
- 20
--2.499999999994316
- 40
-1
-  0
-CIRCLE
-  5
 57
-100
-AcDbEntity
-  8
-screws-holes
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbCircle
- 10
-4.330127018921001
- 20
-2.49999999998
- 40
-1
-  0
-CIRCLE
-  5
-58
 100
 AcDbEntity
   8
@@ -2928,6 +2906,198 @@ AcDbCircle
 -4
  40
 0.8
+  0
+LINE
+  5
+58
+100
+AcDbEntity
+  8
+back-elec
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-6.45
+ 20
+-0.9999999999999996
+ 11
+-6.45
+ 21
+1.000000000000001
+  0
+LINE
+  5
+59
+100
+AcDbEntity
+  8
+back-elec
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-6.05
+ 20
+-0.9999999999999996
+ 11
+-6.05
+ 21
+1.000000000000001
+  0
+LINE
+  5
+5A
+100
+AcDbEntity
+  8
+back-elec
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+6.05
+ 20
+-1
+ 11
+6.05
+ 21
+0.9999999999999997
+  0
+LINE
+  5
+5B
+100
+AcDbEntity
+  8
+back-elec
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+6.45
+ 20
+-1
+ 11
+6.45
+ 21
+0.9999999999999997
+  0
+LINE
+  5
+5C
+100
+AcDbEntity
+  8
+back-elec
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-6.45
+ 20
+1.000000000000001
+ 11
+-6.05
+ 21
+1.000000000000001
+  0
+LINE
+  5
+5D
+100
+AcDbEntity
+  8
+back-elec
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+6.05
+ 20
+0.9999999999999997
+ 11
+6.45
+ 21
+0.9999999999999997
+  0
+LINE
+  5
+5E
+100
+AcDbEntity
+  8
+back-elec
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+6.05
+ 20
+-1
+ 11
+6.45
+ 21
+-1
+  0
+LINE
+  5
+5F
+100
+AcDbEntity
+  8
+back-elec
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-6.45
+ 20
+-0.9999999999999996
+ 11
+-6.05
+ 21
+-0.9999999999999996
   0
 ENDSEC
   0
