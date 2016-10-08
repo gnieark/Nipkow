@@ -1,5 +1,6 @@
 lamp();
 
+lampFoot();
 module lamp(){
 
    linear_extrude (height=10)
@@ -7,4 +8,10 @@ module lamp(){
 	translate([0,0,9.99])
 	   linear_extrude (height=2)
        import (file="motor-dc-m15n.dxf", layer="lamp-back", $fn=100);
+}
+
+module lampFoot(){
+linear_extrude (height=10)
+       import (file="motor-dc-m15n.dxf", layer="lamp-foot", $fn=100);
+
 }
